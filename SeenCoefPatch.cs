@@ -10,6 +10,8 @@ using Comfort.Common;
 using EFT.InventoryLogic;
 using System.Diagnostics;
 
+using BotDifficultySettingsClass = Settings9;
+
 
 namespace ThatsLit
 {

@@ -22,7 +22,7 @@ namespace ThatsLit
         public const string Trademark = "";
         public const string Culture = "";
 
-        public const int TarkovVersion = 29197;
+        public const int TarkovVersion = 29351;
         public const string EscapeFromTarkov = "EscapeFromTarkov.exe";
         public const string ModName = "That's Lit";
         public const string ModVersion = "1.380.10";
@@ -32,7 +32,7 @@ namespace ThatsLit
     }
 
     [BepInPlugin("bastudio.thatslit", ModName, ModVersion)]
-    [BepInDependency(SPTGUID, SPTVersion)]
+    //[BepInDependency(SPTGUID, SPTVersion)]
     [BepInProcess(EscapeFromTarkov)]
     public class ThatsLitPlugin : BaseUnityPlugin
     {

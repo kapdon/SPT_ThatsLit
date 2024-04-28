@@ -14,7 +14,7 @@
 
   <PropertyGroup>
     <!-- folder switch -->
-    <EFTPath>..\..</EFTPath>
+    <EFTPath>..\..\SIT\Game</EFTPath>
     <ManagedAssembliesPath>$(EFTPath)\EscapeFromTarkov_Data\Managed</ManagedAssembliesPath>
     <BepInExPath>$(EFTPath)\BepInEx\core</BepInExPath>
     <ManagedPath>$(TarkovPath)/EscapeFromTarkov_Data/Managed</ManagedPath>

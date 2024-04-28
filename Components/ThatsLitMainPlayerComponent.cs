@@ -16,9 +16,9 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-using BaseCellClass = GClass1052;
-using CellClass = GClass1053;
-using SpatialPartitionClass = GClass1067<GClass1052>;
+using BaseCellClass = AbstractSpCell;
+using CellClass = GAbstractSpCell;
+using SpatialPartitionClass = GClass1074<AbstractSpCell>;
 
 namespace ThatsLit.Components
 {
